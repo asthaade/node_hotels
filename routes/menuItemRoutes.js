@@ -3,7 +3,7 @@ const router = express.Router();
 const MenuItem = require('./../models/MenuItem');
 
 //Post route to add a MenuItem
-router.post('/',async (req,res)=>{
+router.post('/signup',async (req,res)=>{
     try{
             const data = req.body;    //Assuming the request body contains the person data
 
